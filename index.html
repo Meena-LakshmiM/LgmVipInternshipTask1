@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Fonts and API's-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>ZiPPY</title>
+</head>
+<body>
+    
+
+  <div class="container__hero">
+    <!--First Container-->
+    <section class="sect__carousal">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="images/webbg1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/purplewebbg2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/webbg1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Navigation bar-->
+    <section class="sect__navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container d-flex justify-content-between">
+          <div class="branding d-flex align-items-center gap-2">
+            <div class="brand__logo">
+              <img src="images/z.png" alt="branding" class="logo__zippy" href="#">
+            </div>
+            <a class="navbar-brand" href="#">ZiPPY</a>
+          </div>
+          <div class="navbar__items__list">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav d-flex gap-5">
+                <a class="nav-link active" aria-current="page" href="#HomePage">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Prjects">Projects</a>
+                <a class="nav-link active" aria-current="page" href="#Pricing">Pricing</a>
+               
+                <a class="nav-link active" aria-current="page" href="#Blog">Blog</a>
+                <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--First Cointainer text-->
+    <div class="container hero__text mb-5">
+      <div class="row mt-2">
+        <div class="col fs-1">
+          <h1 class="hero__title">
+            
+              One page promising to <br />
+              fill all your needs!
+            
+            
+          </h1>
+          <h1 class="small_title" >   -  Made by Lakshmi Meena M</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h6 class="hero__description" style="color: #F6A9A9;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+          </h6>
+        </div>
+      </div>
+      <div class="row mt-lg-3 hero__button">
+        <div class="col-7 d-flex flex-row-reverse">
+          <button type="button" class="btn btn-warning" style="background-color:#ECD662;">Learn More</button>
+        </div>
+        <div class="col-5">
+          <button type="button" class="btn btn-outline-warning" style="background-color: #9B72AA;">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Welcome cointainer-->
+  <section class="container home__container">
+    <div class="row">
+      <div class="col text-center">
+        <h1 class="text-center" id="HomePage">
+          <strong>Welcome to ZiPPY</strong>
+        </h1>
+      </div>
+    </div>
+    <div class="d-md-flex mt-sm-3 mt-md-5 mb-3 mb-lg-5">
+      <div class="text-center home__description" style="font-size: larger;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Sagittis eu volutpat odio facilisis. Sed felis eget velit aliquet sagittis id consectetur. Magna eget est lorem ipsum. Semper viverra nam libero justo laoreet sit amet cursus sit. Varius quam quisque id diam vel.
+      </div>
+      <div class=" text-center home__img">
+        <img src="images/umbrella.jpg" alt="umbrella image" class="rounded mx-auto d-block umbrella__img">
+      </div>
+    </div>
+    <div class="home__info__container mt-sm-3 d-md-flex">
+      <div class="home__info p-5 text-center">
+        <div class="home__info__img mb-2">
+          <img src="images/bell.png" alt="bell image" class="bell__img">
+        </div>
+        <div class="home__info__title mb-sm-2">
+          <h4>Lorem Ipsum</h4>
+        </div>
+        <div class="home__info__description">
+          At vero eos et accusamus et qui voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.
+        </div>
+        <div class="home__info__button">
+          <button type="button" class="btn btn__info__home mt-3">Learn More</button>
+        </div>
+      </div>
+
+      <div class="home__info p-5 text-center">
+        <div class="home__info__img mb-2">
+          <img src="images/message.png" alt="bell image" class="bell__img">
+        </div>
+        <div class="home__info__title mb-sm-2">
+          <h4>Dolor Sit</h4>
+        </div>
+        <div class="home__info__description">
+          At vero eos et accusamus et qui voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.
+        </div>
+        <div class="home__info__button">
+          <button type="button" class="btn btn__info__home mt-3" style="background-color:#9B72AA;">Learn More</button>
+        </div>
+      </div>
+
+      <div class="home__info p-5 text-center">
+        <div class="home__info__img mb-2">
+          <img src="images/wardrobe.png" alt="bell image" class="bell__img">
+        </div>
+        <div class="home__info__title mb-sm-2">
+          <h4>Consecteture</h4>
+        </div>
+        <div class="home__info__description">
+          At vero eos et accusamus et qui voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum.
+        </div>
+        <div class="home__info__button">
+          <button type="button" class="btn btn__info__home mt-3" style="background-color:#9B72AA;">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div style="float:left; width: 50%;"><hr/></div>
+    <div style="float:right; width: 50%;"><hr/></div>
+  </section>
+
+  <!--Project Cointainer-->
+  <section class="projects__container mt-5">
+    <div class="project__header text-center mt-5 mb-5">
+      <h1 id="Prjects"><strong>Projects</strong></h1>
+    </div>
+    <div class="card__container__master d-md-flex">
+      <div class="project__card__container pb-3" style="background-color: #e0e0e0;">
+        <div class="project__card__image">
+          <img src="https://images.pexels.com/photos/1438190/pexels-photo-1438190.jpeg?cs=srgb&dl=pexels-lisa-1438190.jpg&fm=jpghttps://images.pexels.com/photos/6473735/pexels-photo-6473735.jpeg?cs=srgb&dl=pexels-cottonbro-6473735.jpg&fm=jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Launch Case Study</button>
+        </div>
+      </div>
+      <div class="project__card__container pb-3" style="background-color: #9b9b9b;">
+        <div class="project__card__image">
+          <img src="https://images.pexels.com/photos/834895/pexels-photo-834895.jpeg?cs=srgb&dl=pexels-jeshootscom-834895.jpg&fm=jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Launch Case Study</button>
+        </div>
+      </div>
+  
+      <div class="project__card__container pb-3" style="background-color: #e0e0e0;">
+        <div class="project__card__image">
+          <img src="https://images.pexels.com/photos/4067117/pexels-photo-4067117.jpeg?cs=srgb&dl=pexels-jacqueline-kelly-4067117.jpg&fm=jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Launch Case Study</button>
+        </div>
+      </div>
+      <div class="project__card__container pb-3" style="background-color: #9b9b9b;">
+        <div class="project__card__image">
+          <img src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?cs=srgb&dl=pexels-negative-space-160107.jpg&fm=jpg" alt="project image" class="project__img" style="height: 400px; width: 100%;"/>
+        </div>
+        <div class="container project__card__title ps-4 pe-4 mt-3">
+          <h3>Project Name</h3>
+        </div>
+        <div class=" container project__card__description ps-4 pe-4">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        </div>
+        <div class="container project__card__button ps-4 pe-4">
+          <button type="button" class="btn btn__project mt-3">Launch Case Study</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Pricing Table-->
+  <section class="container">
+    <div class="price__header mt-5 mb-5 text-center">
+      <h1 id="Pricing">
+        <strong>Pricing Table</strong>
+      </h1>
+    </div>
+    <div class="pricetable__container d-md-flex justify-content-evenly">
+      <div class="price__card text-center mt-5">
+        <div class="price__title">
+          <h4>STANDARD PLAN</h4>
+        </div>
+        <div class="price__tag">
+          <span style="color: rgba(0, 0, 0, 0.335);">Free</span>
+        </div>
+        <div class="price__detail">
+          10 users included <br />
+          2 GB of storage <br />
+          Email support <br />
+          Help center access
+        </div>
+        <div class="price__btn">
+          <button type="button" class="btn btn__info__home mt-3 ps-5 pe-5">Buy</button>
+        </div>
+      </div>
+
+      <div class = "vertical"></div>
+
+      <div class="price__card text-center mt-5">
+        <div class="price__title">
+          <h4>BUSINESS PLAN</h4>
+        </div>
+        <div class="price__tag">
+          <span style="color: rgba(0, 0, 0, 0.335);">37$/mo</span>
+        </div>
+        <div class="price__detail">
+          20 users included <br />
+          10 GB of storage <br />
+          Priority email support <br />
+          Help center access
+        </div>
+        <div class="price__btn">
+          <button type="button" class="btn btn__info__home mt-3 ps-5 pe-5">Buy</button>
+        </div>
+      </div>
+
+      <div class = "vertical"></div>
+
+      <div class="price__card text-center mt-5">
+        <div class="price__title">
+          <h4>PREMIUM PLAN</h4>
+        </div>
+        <div class="price__tag">
+          <span style="color: rgba(0, 0, 0, 0.335);">69$/mo</span>
+        </div>
+        <div class="price__detail">
+          30 users included <br />
+          15 GB of storage <br />
+          Phone and email support <br />
+          Help center access
+        </div>
+        <div class="price__btn">
+          <button type="button" class="btn btn__info__home mt-3 ps-5 pe-5">Buy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Video Container-->
+  <section class="vdo__project__container mt-5 text-center pt-3 pb-3" style="background-image: url(contents/moroccan-flower-dark.png); color: white;">
+    <div class="vdo__header mt-5">
+      <h1 id="Video Projects">
+        <strong>Video Projects</strong>
+      </h1>
+    </div>
+    <div class="vdo__slider__container mt-5 mb-3">
+      <div class="row slider-01 container text-center" style="width: 100%;">
+
+        <div class="slide" style="width: 100%;">
+          <video src="vedios/Welcome - 24829.mp4" style="width: 95%;" controls>Sorry, Your System doesn't support this Video.</video>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <video src="vedios/Computer - 5074.mp4" style="width: 95%;" controls>Sorry, Your System doesn't support this Video.</video>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <video src="vedios/Welcome - 24829.mp4" style="width: 95%;" controls>Sorry, Your System doesn't support this Video.</video>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <video src="vedios/City - 3134.mp4" style="width: 95%;" controls>Sorry, Your System doesn't support this Video.</video>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <video src="vedios/Computer - 5074.mp4" style="width: 95%;" controls>Sorry, Your System doesn't support this Video.</video>
+        </div>
+
+        <div class="slide" style="width: 100%;">
+          <video src="vedios/Welcome - 24829.mp4" style="width: 90%;" controls>Sorry, Your System doesn't support this Video.</video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Team members-->
+  <section class="container mt-5">
+    <div class="team__header text-center">
+      <h1 id="Team">
+        <strong>ZiPPY Team</strong>
+      </h1>
+    </div>
+    <div class="team__info__container">
+      <div class="team__info__row__1">
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__img">
+            <img src="images/austin-distel-7uoMmzPd2JA-unsplash-modified.png" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <img src="images/facebook.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/twitter.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/github.svg" alt="Member Handles" class="member__handles"/>
+              </div>
+            </div>
+          </div>
+          <div class="team__member__card__info text-center">
+            <h4>MATT ALEX</h4>
+            <span>Art Director</span>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__card__info text-center">
+            <h4>SARAH JOHNSON</h4>
+            <span>Creative Head</span>
+          </div>
+          <div class="team__member__img">
+            <img src="images/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash-modified.png" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <img src="images/facebook.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/twitter.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/github.svg" alt="Member Handles" class="member__handles"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__img">
+            <img src="images/nicolas-horn-MTZTGvDsHFY-unsplash-modified.png" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <img src="images/facebook.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/twitter.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/github.svg" alt="Member Handles" class="member__handles"/>
+              </div>
+            </div>
+          </div>
+          <div class="team__member__card__info text-center">
+            <h4>ALI HAIDER</h4>
+            <span>Senior Designer</span>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__card__info text-center">
+            <h4>JIMMY SMITH</h4>
+            <span>Marketing Manager</span>
+          </div>
+          <div class="team__member__img">
+            <img src="images/freestocks-9UVmlIb0wJU-unsplash-modified.png" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <img src="images/facebook.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/twitter.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/github.svg" alt="Member Handles" class="member__handles"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__img">
+            <img src="http://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <img src="images/facebook.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/twitter.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/github.svg" alt="Member Handles" class="member__handles"/>
+              </div>
+            </div>
+          </div>
+          <div class="team__member__card__info text-center">
+            <h4>CELIEN JOHN</h4>
+            <span>Creative Head</span>
+          </div>
+        </div>
+
+        <div class="team__info__card d-flex justify-content-center align-items-center gap-3 gap-md-5 mt-5">
+          <div class="team__member__card__info text-center">
+            <h4>CHRIS PHILIPS</h4>
+            <span>Senior Developer</span>
+          </div>
+          <div class="team__member__img">
+            <img src="https://uifaces.co/our-content/donated/gPZwCbdS.jpg" alt="Member image" class="member__img">
+            <div class="overlay">
+              <div class="overlay__img d-flex gap-4">
+                <img src="images/facebook.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/twitter.svg" alt="Member Handles" class="member__handles"/>
+                <img src="images/github.svg" alt="Member Handles" class="member__handles"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Life Container-->
+  <section class="zippy__lyf__container mt-5">
+    <video autoplay muted loop id="myVideo" style="width: 100%;">
+      <source src="contents/vdos/pexels-oleg-lehnitsky-8333185.mp4" type="video/mp4">
+    </video>
+    <div class="content__container">
+      <div class="lyf__header mt-2 mt-md-5 text-center">
+        <h1>
+          <strong>Life in ZiPPY</strong>
+        </h1>
+
+        <div class="lyf__img__container container slider slider-for mt-md-5">
+
+          <div class="img__lyf" style="width: 80%;">
+            <img src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=pexels-pixabay-39284.jpg&fm=jpg" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%;">
+            <img src="https://images.pexels.com/photos/5083399/pexels-photo-5083399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%;">
+            <img src="https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%;">
+            <img src="https://images.pexels.com/photos/3215527/pexels-photo-3215527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%;">
+            <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%;">
+            <img src="https://images.pexels.com/photos/7648050/pexels-photo-7648050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%;">
+            <img src="https://images.pexels.com/photos/7648058/pexels-photo-7648058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+        </div>
+
+        <div class="lyf__img__container container slider slider-nav mt-2 mt-md-4">
+
+          <div class="img__lyf" style="width: 80%; height: 300px;">
+            <img src="https://images.pexels.com/photos/374831/pexels-photo-374831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%; height: 300px;">
+            <img src="https://images.pexels.com/photos/5083399/pexels-photo-5083399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%; height: 300px;">
+            <img src="https://images.pexels.com/photos/1560932/pexels-photo-1560932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%; height: 300px;">
+            <img src="https://images.pexels.com/photos/3215527/pexels-photo-3215527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%; height: 300px;">
+            <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%; height: 300px;">
+            <img src="https://images.pexels.com/photos/7648050/pexels-photo-7648050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+          <div class="img__lyf" style="width: 80%; height: 300px;">
+            <img src="https://images.pexels.com/photos/7648058/pexels-photo-7648058.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Work Life" class="slider-items" style="width: 100%;">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--Newsletter container-->
+  <section class="signup__master__container pt-4 pb-4" style="background-image: url(); width: 100%;">
+    <div class="signup__container container mt-5 mb-5">
+        <img src = "https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?cs=srgb&dl=pexels-pixabay-208745.jpg&fm=jpg" class="signup_image" alt="bridge.img">      
+      <div class="signup__email__input mt-5 ps-2 pe-2">
+        
+        <div class="row justify-content-center">
+                 
+  
+            
+          <div class="col-md-6">
+            
+  
+            
+            <div class="input-group mb-3">
+                <div class="signup__header text-center mt-2">
+                    <h1 style="color:rgb(105, 30, 105);">
+                      <strong>Newsletter Signup  </strong>
+                    </h1>
+                  </div>
+                
+                
+
+            <input type="text" class="form-control" placeholder="xyz@example.com" aria-label="Recipient's username" aria-describedby="basic-addon2" style="background-color: rgba(255, 255, 255, 0.801);">
+            <span class="input-group-text" id="basic-addon2">Sign Up</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Blog container-->
+  <section class="blog__container container mt-5">
+    <div class="blog__header text-center">
+      <h1 id="Blog"><strong>Blog</strong></h1>
+    </div>
+
+    <div class="blogs__container d-md-flex gap-3">
+      <div class="blog__card text-center mt-5">
+        <div class="blog__img">
+          <img src="images/pexels-lisa-2349209.jpg" alt="blog image" style="width: 100%;">
+        </div>
+        <div class="blog__title mt-3">
+          <h4>BLOG 1</h4>
+          Lorem Ipsum Dolor <br />
+          <span style="color: rgba(0, 0, 0, 0.377);">05 Sept , 2021</span>
+        </div>
+        <div class="blog__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Facilisi morbi tempus iaculis urna id. Lectus sit amet est placerat in. Nibh cras pulvinar mattis nunc sed blandit.
+        </div>
+        <div class="blog__btn">
+          <button type="button" class="btn btn__project mt-3">Read More</button>
+        </div>
+      </div>
+
+      <div class="blog__card text-center mt-5">
+        <div class="blog__img">
+          <img src="images/pexels-pixabay-267389.jpg" alt="blog image" style="width: 100%;">
+        </div>
+        <div class="blog__title mt-3">
+          <h4>BLOG 2</h4>
+          Lorem Ipsum Dolor <br />
+          <span style="color: rgba(0, 0, 0, 0.377);">15 Sept , 2021</span>
+        </div>
+        <div class="blog__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Facilisi morbi tempus iaculis urna id. Lectus sit amet est placerat in. Nibh cras pulvinar mattis nunc sed blandit.
+        </div>
+        <div class="blog__btn">
+          <button type="button" class="btn btn__project mt-3">Read More</button>
+        </div>
+      </div>
+
+      <div class="blog__card text-center mt-5">
+        <div class="blog__img">
+          <img src="images/pexels-pixabay-38519.jpg" alt="blog image" style="width: 100%;">
+        </div>
+        <div class="blog__title mt-3">
+          <h4>BLOG 3</h4>
+          Lorem Ipsum Dolor <br />
+          <span style="color: rgba(0, 0, 0, 0.377);">28 Sept , 2021</span>
+        </div>
+        <div class="blog__derem ipsum description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Facilisi morbi tempus iaculis urna id. Lectus sit amet est placerat in. Nibh cras pulvinar mattis nunc sed blandit.
+        </div>
+        <div class="blog__btn">
+          <button type="button" class="btn btn__project mt-3">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact container-->
+  <section class="contact__master__container w-100" style="background-image: url(images/purplebg.jpg);">
+    <div class="row mt-5 w-100">
+      <div class="col-md-6" style="background-image: url(images/purplebg.jpg);">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596698663!2d-74.25986773739224!3d40.697149413874705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1630996798867!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-md-6 ps-5 pe-5 pt-5" style="background-image: url(images/purplebg.jpg);">
+        <div class="contact__header">
+          <h1 id="Contact"><strong>Contact</strong></h1>
+        </div>
+        <div class="contact__form">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><strong>NAME</strong></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="eg: Lakshmi Meena M">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><strong>EMAIL ADDRESS</strong></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="letsgrowmore@gmail.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><strong>SUBJECT</strong></label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="eg: Your Query">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"><strong>MESSAGE</strong></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type here ..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer  style="background-color: rgba(0, 0, 0, 0.37); color: white;" class="pt-4 pb-2 text-center w-100">
+    <div class="row w-100">
+      <div class="col-md-4 mt-5">
+        <div class="office__address text-center">
+          <div class="add__header">
+            <h5>OFFICE ADDRESS</h5>
+          </div>
+          <div class="add__description">
+            Lorem ipsum dolor sit amet, <br />
+            consectetur adipiscing, <br />
+            in voluptate.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-5">
+        <div class="social__handles text-center">
+          <div class="handles__header">
+            <h5>FOLLOW US</h5>
+          </div>
+          <div class="add__description">
+            <a href="https://www.instagram.com/hamdaan_aziz/" target="_blank"><img src="images/instagram.svg" alt="social media handle" class="ms-2 me-2 mt-2 mb-2 media__icons"></a> 
+            <a href="https://www.facebook.com/profile.php?id=100012240667420" target="_blank"><img src="images/facebook.svg" alt="social media handle" class="ms-2 me-2 mt-2 mb-2 media__icons"></a>
+            <a href="https://www.linkedin.com/in/hamdaanaziz/" target="_blank"><img src="images/linkedin.svg" alt="social media handle" class="ms-2 me-2 mt-2 mb-2 media__icons"></a>
+
+            <br />
+
+            <a href="https://twitter.com/HamdaanAziz" target="_blank"><img src="images/twitter.svg" alt="social media handle" class="ms-2 me-2 mt-2 mb-2 media__icons"></a>
+            <img src="images/at-sign.svg" alt="social media handle" class="ms-2 me-2 mt-2 mb-2 media__icons">
+            <a href="https://github.com/ihamdaan" target="_blank"><img src="images/github.svg" alt="social media handle" class="ms-2 me-2 mt-2 mb-2 media__icons" /> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mt-5">
+        <div class="contact__us text-center">
+          <div class="contactus__header">
+            <h5>CONTACT US</h5>
+          </div>
+          <div class="contactus__description">
+            +123 456 7890 <br />
+            zippymail@email.com <br />
+            enquiry@zippy.com
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3 mb-2 justify-content-center">
+      <div class="col-md-6 footer__desc">
+        All copyrights are reserved for Team Zippy under Copyright Act @2021. <br />
+        Designed and Developed by HAMDAAN AZIZ.
+      </div>
+    </div>
+  </footer>
+  
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  
+  <script src="index.js"></script>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+

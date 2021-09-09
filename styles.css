@@ -1,0 +1,274 @@
+body{
+    background-color: #CE97B0;
+}
+
+*{
+    padding:0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container__hero{
+    position: relative;
+}
+
+.sect__carousal{
+    position: absolute;
+    width: 100%;
+    z-index: -3;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'Hina Mincho', serif;
+    font-size: 36px;
+}
+
+.brand__logo{
+    width: 25px;
+}
+
+.logo__zippy{
+    width: 100%;
+}
+
+.navbar-nav{
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 15px;
+} 
+
+.hero__title{
+    color: white;
+}
+
+.hero__description{
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.btn__info__home{
+    background-color: purple;
+    color: white;
+}
+
+.btn__info__home:hover{
+    background-color: purple;
+    color:white;
+}
+
+.btn__project{
+    background-color: purple;
+    color: white;
+}
+
+.btn__project:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.vdo__slider__container{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.team__member__img{
+    width: 50%;
+}
+.member__img{
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.team__member__img{
+  position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: plum;
+    border-radius: 50%;
+}
+
+.team__member__img:hover  {
+    opacity: 50%;
+}
+.overlay:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.overlay__img {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.zippy__lyf__container{
+    position: relative;
+}
+
+  #myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .content__container{
+    position: absolute;
+  top: 0;
+  color: black;
+  width: 100%;
+  padding: 20px;
+  }
+
+.blog__container{
+    
+    background-color: #F9DFDC;
+    padding-top: 30px;
+    padding-bottom:32px;
+}
+  .slider-nav, .slider-for{
+      text-align: center;
+  }
+
+  .input-group-text{
+    background-color: purple; 
+    color: white;
+  }
+
+  .input-group-text:hover {
+      background-color:purple;
+      color: black;
+      cursor: pointer;
+  }
+
+  .footer__desc{
+      font-size: 10px;
+  }
+
+  .media__icons:hover{
+    background-color: rgba(255, 255, 255, 0.65);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 1px;
+  }
+
+  /* For desktop: */
+@media only screen and (min-width: 768px) {
+    
+    .carousel-item{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .navbar-brand{
+        color: rgba(255, 255, 255, 0.904);
+        font-family: 'Indie Flower', cursive;
+        font-size: 40px;
+    }
+    
+    .brand__logo{
+        width: 35px;
+    }
+    
+    .logo__zippy{
+        width: 100%;
+    }
+    
+    .navbar-nav{
+        color:white;
+        font-size: 20px;
+    }    
+    .nav-link{
+        color: white;
+    }
+    .nav-link:hover{
+        font-size: 21px;
+        text-shadow: 3px 3px 12px rgba(150, 150, 150, 1);
+        color:white;
+    }
+
+    .hero__title{
+        color: rgb(243, 242, 242);
+        font-size: 80px;
+        margin-top: 110px;
+    }
+    .small_title{
+        color:white;
+        font-style: bold;
+        font-size: large;
+        padding-left: 70px;
+    }
+    .hero__description{
+        color: rgba(255, 255, 255, 0.904);
+        font-size: 23px;
+        margin-top: 10px;
+    }
+
+    .hero__button{
+        margin-bottom: 250px;
+    }
+
+    .home__description, .home__img{
+        width: 50%;
+    }
+
+    .umbrella__img{
+        width: 50%;
+    }
+
+    .vertical {
+        border-left: 2px solid rgba(0, 0, 0, 0.308);
+        height: 300px;
+        left: 50%;
+    }
+
+    .vdo__slider__container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .team__member__img{
+        width: 250px;
+    }
+
+}
+
+.signup__container{
+    padding-top: 400px;;
+}
+
+.signup_image{
+    width: 1300px;
+    height:800px;
+    padding-top: 250px;
+}
+
+
+
+.col-md-6{
+    color: white;
+}
